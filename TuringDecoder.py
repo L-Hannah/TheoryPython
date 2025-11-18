@@ -1,6 +1,4 @@
 class TuringDecoder:
-    def __init__(self):
-        self.inputMachine()
     def checkMachine(self):
         if (self.machine==""):
             return False
@@ -78,3 +76,4 @@ class TuringDecoder:
             print("Tape alphabet cannot be empty.")
             self.inputMachine()
 turingDecoder = TuringDecoder()
+turingDecoder.inputMachine()
