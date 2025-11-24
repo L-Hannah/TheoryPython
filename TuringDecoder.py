@@ -75,5 +75,7 @@ class TuringDecoder:
         else:
             print("Tape alphabet cannot be empty.")
             self.inputMachine()
-turingDecoder = TuringDecoder()
-turingDecoder.inputMachine()
+if __name__=="__main__"":
+    turingDecoder = TuringDecoder()
+    turingDecoder.inputMachine()
+
